@@ -1,3 +1,10 @@
+/*******************************************************************************
+Este archivo es parte del proyecto ConsoleMenu
+Autor: Carlos D. Alvarez
+Fecha 160327
+Caracas, Venezuela
+*******************************************************************************/
+
 #include "ConsoleMenu.h"
 
 #if defined(WIN32) || defined(_WIN32) || defined(_WIN64) || defined(WIN64)
@@ -42,7 +49,7 @@ int winObtenerY()
 	return SBInfo.dwCursorPosition.Y;
 }
 #else
-#error ConsoleMenu es compatible sÛlo con Windows NT o posterior (por ahora...)
+#error ConsoleMenu es compatible s√≥lo con Windows NT o posterior (por ahora...)
 #endif
 
 namespace ConsoleMenu
@@ -247,7 +254,7 @@ namespace ConsoleMenu
 		SetColorFont(Color_Blanco);
 	}
 
-	// FAVORECER C”DIGO R¡PIDO SOBRE C”DIGO PEQUE—O
+	// FAVORECER C√ìDIGO R√ÅPIDO SOBRE C√ìDIGO PEQUE√ëO
 	char CMenu::IniciarSeleccion()
 	{
 		SetColorFont(ColoresSistema[CMENU_COLOR_GUIA]);
