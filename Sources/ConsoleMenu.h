@@ -1,4 +1,12 @@
-﻿#pragma once
+/*******************************************************************************
+Este archivo es parte del proyecto ConsoleMenu
+Autor: Carlos D. Alvarez
+Fecha 160327
+Caracas, Venezuela
+
+DEFINICIONES PARA LA BIBLIOTECA
+*******************************************************************************/
+#pragma once
 #ifndef _CONSOLEMENU_H_
 #define _CONSOLEMENU_H_
 #include <iostream>
